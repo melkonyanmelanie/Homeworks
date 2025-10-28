@@ -1,3 +1,5 @@
+## A/B Testing
+
 This project implements two popular malgorithms: **Epsilon-Greedy** and **Thompson Sampling**. 
 
 **1. Install the Requirements**
