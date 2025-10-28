@@ -1,6 +1,6 @@
 ## A/B Testing
 
-This project implements two popular malgorithms: **Epsilon-Greedy** and **Thompson Sampling**. 
+This project implements two popular algorithms: **Epsilon-Greedy** and **Thompson Sampling**. 
 
 **1. Install the Requirements**
 
@@ -20,10 +20,10 @@ The main code is contained in the **bandit.py** file, which implements the Epsil
 **Epsilon-Greedy** uses a decaying epsilon value to balance between exploration and exploitation, while **Thompson Sampling** utilizes Gaussian rewards with known precision to estimate the mean rewards of the arms.
 
 **3. Project Structure**
-- bandit.py               # Core implementation of the multi-armed bandit algorithms (Epsilon-Greedy & Thompson Sampling)
-- requirements.txt        # Lists all required Python dependencies for the project.
-- example_run/            # Contains an example of a run from the bandit.py script, showing output and performance metrics.
-- suggestions.pdf         # A PDF file that provides additional suggestions for improving the experiment, including **batch simulations**, **stochastic rewards**, and an **adaptive "cool-off" strategy** for bandit exploration.
+- bandit.py                                     # Core implementation of the multi-armed bandit algorithms (Epsilon-Greedy & Thompson Sampling)
+- requirements.txt                              # Lists all required Python dependencies for the project.
+- Report for an Example                         # Contains an example of a run from the bandit.py script, showing output and plots.
+- Better Implementation Suggestions.pdf         # A PDF file that provides additional suggestions for improving the experiment
 
 **4. How to Run the Code**
 
@@ -42,6 +42,3 @@ Plots: Learning curves and performance comparison plots will be saved as PNG fil
 
 CSV: The results (bandit selections and rewards) will be saved in the rewards_log.csv file for future analysis.
 
-6. Additional Suggestions
-
-To further improve the analysis, the suggestions.pdf file includes recommendations on:
